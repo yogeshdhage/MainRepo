@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-08T08:40:50 IST" name="Suite" finished-at="2023-03-08T08:40:56 IST" duration-ms="5932">
+    <groups>
+    </groups>
+    <test started-at="2023-03-08T08:40:50 IST" name="Test" finished-at="2023-03-08T08:40:56 IST" duration-ms="5932">
+      <class name="com.Test.Test_1">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.Test.Test_1@5876a9af]" started-at="2023-03-08T08:40:49 IST" name="initialization" finished-at="2023-03-08T08:40:50 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Test.Test_1@5876a9af]" started-at="2023-03-08T08:40:50 IST" name="setUp" finished-at="2023-03-08T08:40:56 IST" duration-ms="5388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_loginpage()[pri:0, instance:com.Test.Test_1@5876a9af]" started-at="2023-03-08T08:40:56 IST" name="verify_loginpage" finished-at="2023-03-08T08:40:56 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.Test_1@5876a9af]" started-at="2023-03-08T08:40:56 IST" name="tearDown" finished-at="2023-03-08T08:40:56 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.Test_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
